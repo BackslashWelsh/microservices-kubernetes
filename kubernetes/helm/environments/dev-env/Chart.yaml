@@ -1,0 +1,43 @@
+apiVersion: v2
+name: dev-env
+description: A Helm chart for HANDS-ON MICROSERVICES WITH SPRING BOOT AND SPRING CLOUD running in a Dev and Test Environment
+version: 1.0.0
+appVersion: "1.0"
+
+dependencies:
+
+  - name: common
+    version: 1.0.0
+    repository: file://../../common
+
+  - name: auth-server
+    version: 1.0.0
+    repository: file://../../components/auth-server
+
+  - name: product-composite
+    version: 1.0.0
+    repository: file://../../components/product-composite
+
+  - name: product
+    version: 1.0.0
+    repository: file://../../components/product
+
+  - name: recommendation
+    version: 1.0.0
+    repository: file://../../components/recommendation
+
+  - name: review
+    version: 1.0.0
+    repository: file://../../components/review
+
+  - name: rabbitmq
+    version: 1.0.0
+    repository: file://../../components/rabbitmq
+
+  - name: mongodb
+    version: 1.0.0
+    repository: file://../../components/mongodb
+
+  - name: mysql
+    version: 1.0.0
+    repository: file://../../components/mysql

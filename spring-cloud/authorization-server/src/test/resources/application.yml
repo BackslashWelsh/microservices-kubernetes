@@ -1,0 +1,5 @@
+ml.error.include-message: always
+
+ml.cloud.stream.defaultBinder: rabbit
+
+app.auth-server: localhost

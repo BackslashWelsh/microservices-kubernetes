@@ -1,0 +1,30 @@
+dependencies:
+- name: common
+  repository: file://../../common
+  version: 1.0.0
+- name: auth-server
+  repository: file://../../components/auth-server
+  version: 1.0.0
+- name: product-composite
+  repository: file://../../components/product-composite
+  version: 1.0.0
+- name: product
+  repository: file://../../components/product
+  version: 1.0.0
+- name: recommendation
+  repository: file://../../components/recommendation
+  version: 1.0.0
+- name: review
+  repository: file://../../components/review
+  version: 1.0.0
+- name: product-green
+  repository: file://../../components/product-green
+  version: 1.0.0
+- name: recommendation-green
+  repository: file://../../components/recommendation-green
+  version: 1.0.0
+- name: review-green
+  repository: file://../../components/review-green
+  version: 1.0.0
+digest: sha256:3a2abe4231aa986c0e7e1821bd99d4ff25ffc8c869a3581d00474eba541c8de0
+generated: "2022-01-27T12:36:10.450416971+02:00"
