@@ -6,7 +6,7 @@ springdoc:
   cache.disabled: true
 
   swagger-ui:
-    oauth2-redirect-url: https://localhost:8443/webjars/swagger-ui/oauth2-redirect.html
+    oauth2-redirect-url: /swagger-ui/oauth2-redirect.html
     oauth:
       clientId: writer
       # TODO: EXTERNALIZE!
